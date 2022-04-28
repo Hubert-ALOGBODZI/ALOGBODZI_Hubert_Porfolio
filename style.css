@@ -254,6 +254,9 @@ button:hover{
     .about{
        width: 100%;
     }
+    .newsletter{
+        width: 80%;
+    }
 }
 /*======================================================SKILLS + Services===================================*/
 .skills{
@@ -390,9 +393,6 @@ h5{
     cursor: pointer;
 }
 @media (max-width:952px) {
-    .skills{
-        margin-top: -5%;
-    }
     .boX{
         padding:0.5em;
     }
@@ -406,11 +406,17 @@ h5{
     body{
         background: #000;
     }
+    .contact{
+        margin-top: 35em;
+    }
+    .skills,
+    .service{
+        margin-top: 18em;
+    }
 }
 /*===============================================contact==============================================*/
 .contact{
     background: #000;
-    height: 50vh;
     padding: 3.5em;
     color: white;
     display: flex;
@@ -424,7 +430,7 @@ h5{
     background-color: #191919;
     width: 400px;
     height: 400px;
-    padding: 1% 0% 0% 3%;
+    padding: 3em;
     line-height: 2.5em;
 }
 .BTNs{
