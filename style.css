@@ -235,12 +235,24 @@ button:hover{
     border: 2px solid #f90;
     cursor: pointer;
 }
-@media (max-width:952px){
+@media (min-width:100px){
     .main{
         display: flex;
         flex-direction: column;
         text-align: center;
        line-height: 6em;
+    }
+    .about-text{
+        width: 80%;
+    }
+    .content{
+        width: 100%;
+    }
+    h1{
+        font-size: 55px;
+    }
+    .about{
+       width: 100%;
     }
 }
 /*======================================================SKILLS + Services===================================*/
@@ -275,7 +287,7 @@ img{
 .boX:hover{
     background: #f90;
     transform: scale(1.2);
-    border-radius: 50%;
+    cursor: pointer;
 }
 /*=============================================services============================*/
 .service{
@@ -382,7 +394,7 @@ h5{
         margin-top: -5%;
     }
     .boX{
-        padding: 2em;
+        padding:0.5em;
     }
     .box{
         display: flex;
@@ -494,9 +506,4 @@ footer p:nth-child(2){
 .icon{
     display: flex;
     font-weight: 20px;
-}
-@media (max-width:952px) {
-    footer{
-        transform: translateY(-6%);
-    }
 }
