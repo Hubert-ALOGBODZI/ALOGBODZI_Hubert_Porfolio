@@ -185,10 +185,10 @@ h4{
 }
 .about img{
     height: auto;
-    width: 430px;
+    width: 50%;
 }
 .about-text{
-    width: 550px;
+    width: 50%;
 }
 .main{
     width:1130px;
@@ -212,7 +212,7 @@ h4{
     text-transform: capitalize;
 }
 .about-text p{
-    color: rgba(143, 137, 132, 0.8);
+    color: rgba(134, 124, 114, 0.8);
     letter-spacing: 2px;
     line-height: 28px;
     font-size: 28px;
@@ -395,6 +395,12 @@ img{
 @media (max-width:952px) {
     .boX{
         padding:0.5em;
+    }
+    .boX_container{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 100px 100px 100px;
+        gap: 15%;
     }
     .box{
         display: flex;
