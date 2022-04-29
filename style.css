@@ -61,6 +61,13 @@ a:hover{
     nav ul li a{
         font-size: 16px;
     }
+ }
+
+ @media(min-width:953px) {
+    .about .main{
+        display: flex;
+        flex-direction: row;
+    }
 }
 @media (max-width:852px) {
     .checkbtn{
