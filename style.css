@@ -133,7 +133,7 @@ span{
 .content{
     position: absolute;
     top: 50%;
-    left: 8%;
+    padding-left: 2em;
     transform: translateY(-50%);
 }
 h1{
@@ -212,7 +212,7 @@ h4{
     text-transform: capitalize;
 }
 .about-text p{
-    color: #fcfc;
+    color: rgba(143, 137, 132, 0.8);
     letter-spacing: 2px;
     line-height: 28px;
     font-size: 28px;
@@ -240,7 +240,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         text-align: center;
-       line-height: 6em;
+       line-height: 4em;
     }
     .about-text{
         width: 80%;
@@ -294,7 +294,7 @@ img{
 }
 /*=============================================services============================*/
 .service{
-    background: #101010;
+    background: #191919;
     width: 100%;
     padding: 100px 0px;
     text-align: center;
@@ -359,7 +359,7 @@ img{
     background: #858585;
     transform: scale(1.2);
 }
-h5{
+.card h5{
     color: white;
     font-size: 25px;
     margin-bottom: 15px;
