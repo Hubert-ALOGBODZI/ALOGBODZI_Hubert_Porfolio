@@ -197,6 +197,7 @@ h4{
     max-width: 95%;
     margin: 0 auto;
     display: flex;
+    gap: 10%;
     align-items: center;
     justify-content: space-around;
 }
