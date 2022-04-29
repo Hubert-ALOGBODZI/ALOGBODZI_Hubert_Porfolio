@@ -55,7 +55,7 @@ a:hover{
 }
 @media(max-width:952px) {
     label.logo{
-        font-size: 30px;
+        font-size: 25px;
         padding-left: 50px;
     }
     nav ul li a{
@@ -98,11 +98,6 @@ a:hover{
     }
     #check:checked~ul{
         left: 0;
-    }
-    section{
-        background-size: cover;
-        object-fit: cover;
-        height: calc(100vh - 80px);
     }
 }
 /*==================================================HOME=================================================*/
@@ -261,11 +256,9 @@ button:hover{
 /*======================================================SKILLS + Services===================================*/
 .skills{
     background: #191919;
-    margin-top: -2%;
-    margin-bottom: -5%;
-    padding-top: 8em;
     text-align: center;
     color: #f90;
+    margin-top: -5%;
 }
 .boX_container{
     display: flex;
@@ -410,32 +403,24 @@ img{
         margin-top: 15em;
     }
     body{
-        background: #191919;
-    }
-    .contact{
-        margin-top: 35em;
-    }
-    .skills,
-    .service{
-        margin-top: 18em;
+        background:#191919 ;
     }
 }
 /*===============================================contact==============================================*/
 .contact{
     background: #000;
-    padding: 3.5em;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
    line-height: 5em;
+   margin-top: -5%;
 }
 .boxx{
     color: #f90;
     background-color: #191919;
-    width: 400px;
-    height: 400px;
+    width: 360px;
     padding: 3em;
     line-height: 2.5em;
 }
