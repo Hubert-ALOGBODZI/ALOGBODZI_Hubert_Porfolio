@@ -26,14 +26,12 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    line-height: 80px;
     margin: 0 5px;
     border-radius: 3px;
     padding: 7px 13px;
 }
 nav ul li a{
     color: white;
-    font-size: 17px;
     text-transform: uppercase;
 }
 a.active,
@@ -57,9 +55,6 @@ a:hover{
     label.logo{
         font-size: 25px;
         padding-left: 50px;
-    }
-    nav ul li a{
-        font-size: 16px;
     }
  }
 
@@ -87,9 +82,8 @@ a:hover{
     }
     nav ul li{
         display: block;
-        margin: 50px 0 0 2;
-        line-height: 30px;
-        margin-top: 2.5em;
+        line-height: 2px;
+        margin-top: 2em;
     }
     nav ul li a:hover{
         color: #f90;
@@ -431,6 +425,9 @@ img{
     width: 360px;
     padding: 3em;
     line-height: 2.5em;
+    margin-bottom: -5%;
+    border:  dotted;
+    margin-bottom: 1em;
 }
 .BTNs{
     background: #f90;
