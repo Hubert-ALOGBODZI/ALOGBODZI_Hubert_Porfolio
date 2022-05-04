@@ -58,16 +58,18 @@ a:hover{
         padding-left: 50px;
     }
  }
-
  @media(min-width:953px) {
     .about .main{
         display: flex;
         flex-direction: row;
     }
 }
-@media (max-width:852px) {
+@media (max-width:852px){
     .checkbtn{
         display: block;
+    }
+    #check{
+        float: right;
     }
     ul{
         position: fixed;
