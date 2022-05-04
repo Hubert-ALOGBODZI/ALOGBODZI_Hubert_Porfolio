@@ -189,6 +189,9 @@ h4{
 .about-text{
     width: 50%;
 }
+.about-text p{
+    text-align: justify;
+}
 .main{
     width:1130px;
     max-width: 95%;
