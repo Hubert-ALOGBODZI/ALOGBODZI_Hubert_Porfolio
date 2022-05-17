@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*===========================================navbar====================================================*/
 nav{
     background: #1b1c1d;
